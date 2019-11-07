@@ -63,8 +63,8 @@ public class Main {
 	}
 
 	public void emailaBidali(String[][] emailIzenAukera) throws IOException {
-		String nork = "l.ezkutua@gmail.com";
-		String pasahitza = "U2FsdGVkX1/275cYP1wxOscByTsVMDH0Uh/7Q3mYsOTMLjIAp6Gd80O5dcoyBb7G";
+		String nork = "l.ezkutu@gmail.com";
+		String pasahitza = "5603864cc10f117a812158d3c4d5ba6a71e2e98ba53c1bc81309709176a2def1";
 		Properties propietateak = System.getProperties();
 		
 		propietateak.put("mail.smtp.auth", "true");
@@ -87,7 +87,7 @@ public class Main {
 				MimeMessage message = new MimeMessage(session);
 				message.setFrom(new InternetAddress(nork));
 				message.addRecipient(Message.RecipientType.TO, new InternetAddress(emaila));
-				message.setSubject("Lagun Ezkutua 2018-2019");
+				message.setSubject("Lagun Ezkutua 2019-2020");
 				emailTestuaKopia = emailTestua.replaceAll("%", aukeratua);
 				message.setText(emailTestuaKopia);
 				Transport.send(message);
