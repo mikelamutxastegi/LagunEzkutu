@@ -64,10 +64,12 @@ public class Main {
 
 	public void emailaBidali(String[][] emailIzenAukera) throws IOException {
 		String nork = "l.ezkutu@gmail.com";
-		String pasahitza = "5603864cc10f117a812158d3c4d5ba6a71e2e98ba53c1bc81309709176a2def1";
+		String pasahitza = "pasahitza";
 		Properties propietateak = System.getProperties();
 		
 		propietateak.put("mail.smtp.auth", "true");
+		propietateak.put("mail.smtp.ssl.trust", "smtp.gmail.com");
+		propietateak.put("mail.smtp.ssl.protocols", "TLSv1.2");
 		propietateak.put("mail.smtp.starttls.enable", "true");
 		propietateak.put("mail.smtp.host", "smtp.gmail.com");
 		propietateak.put("mail.smtp.port", "587");
