@@ -1,4 +1,4 @@
-erriba2@gmail.com,Ibai Errasti
+errarte77@gmail.com,Ibai Errasti
 xabier.etxezarreta@alumni.mondragon.edu,Xabi Etxezarreta
 aregino1@gmail.com,Adrian Ruiz de Egino
 xabiernunez@opendeusto.es,Xabi Nuñez
@@ -9,7 +9,6 @@ jon.german@alumni.mondragon.edu,Jon German
 ibengoetxea009@ikasle.ehu.eus,Iker Bengoetxea
 sergio.rios@alumni.mondragon.edu,Sergio Rios
 laurabalanzategui@gmail.com,Laura Balanzategui
-rodriguezaitor17@gmail.com,Aitor Rodriguez
 mikel.arizmendiarrie@alumni.mondragon.edu,Mikel Arizmendiarrieta
 m.amuchastegui.zubizarreta@gmail.com,Mikel Amuchastegui
 asierdelgado@arizmendikide.net,Asier Delgado
